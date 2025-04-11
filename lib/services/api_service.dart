@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class ApiService {
   // Substitua pela URL do seu projeto MockAPI
-  final String _baseUrl = 'https://67f8c4ef2466325443edb7c9.mockapi.io/api/v1/users';
+  final String _baseUrl = 'https://seu-id.mockapi.io/api/v1/users';
 
   // Envia dados para o MockAPI (POST)
   Future<void> postData(Map<String, String> data) async {
