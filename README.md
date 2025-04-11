@@ -18,6 +18,7 @@ Este é um aplicativo Flutter que permite cadastrar informações (nome, e-mail,
 1. Clone o repositório: `git clone https://github.com/seu-usuario/formulario_api.git`
 2. Entre na pasta: `cd formulario_api`
 3. Instale as dependências: `flutter pub get`
+     Caso ocorra algum erro semelhante a "formulario_api requires SDK version ^3.7.2, version solving failed", use o comando: 'flutter upgrade' para instalar pacotes necessários
 4. Configure a URL do MockAPI em `lib/services/api_service.dart`.
 5. Execute: `flutter run`
 
